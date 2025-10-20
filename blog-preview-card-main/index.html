@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+
+<body>
+
+  <div class="main-container">
+    <main class="flex-main">
+      <div class="logo-container">
+        <img class="blog-logo" src="assets/images/illustration-article.svg" alt="blog logo." width="336px" height="200px">
+      </div>
+
+      <fieldset aria-label="page content." class="content">
+        <legend aria-label="category: learning." class="category"><a href="#">Learning</a></legend> <!-- Do not make these <p>'s -->
+        <legend aria-label="date of publication." class="publish-date"><div>Published 21 Dec 2023</div></legend> <!-- Do not make these <p>'s -->
+        <legend aria-label="title of blog." class="title"><a href="#">HTML & CSS foundations</a></legend> <!-- Do not make these <p>'s -->
+        <legend aria-label="blog description" class="description">These languages are the backbone of every website, defining structure, content, and presentation.</legend> <!-- Do not make these <p>'s -->
+      </fieldset> 
+
+      <fieldset class="profile">
+        <img class="profile-pic" src="assets/images/image-avatar.webp" alt="profile picture.">
+        <a href="#" class="profile-name">Greg Hooper</a> <!-- Do not make these <p>'s -->
+      </fieldset> 
+    </main>
+  </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Josh Fisher</a>.
+  </footer>
+
+</body>
+
+</html>
