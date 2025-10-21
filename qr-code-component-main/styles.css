@@ -2,22 +2,41 @@
     background-color: #D5E1EF;
 }
 
+.text-pitch {
+    font-size: 22px;
+    color: #1F314F;
+}
+
+.instructions {
+    font-size: 15px;
+    color: #68778D;
+}
+
+
+
+/* .font22 {
+    font-size: 22px;
+} */
+
+/* LAB 3.2 STYLES BELOW
+
+
 .main-container {
-    display: flex; /* displays the webpage content in the center of the screen */
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
 .flex-main {
-    background-color: white; /* sets white background*/
-    border-radius: 20px; /* rounds the corners*/
-    display: flex; /* display as a flexbox*/
-    flex-direction: column; /* displays content in a column*/
-    align-items: center; /* paragraphs are centered */
-    text-align: center; /* text within paragraphs is centered */
-    width: 288px; /* 320 - 32 = 288*/
-    height: 467px; /* 499 - 32 = 467*/
+    background-color: white; 
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    width: 288px; 
+    height: 467px; 
     padding: 16px;
 }
 
@@ -29,11 +48,6 @@ img {
 }
 
 .text-pitch {
-    color: #1F314F;
-    background-color: white;
-    font-family: "Outfit";
-    font-weight: bold;
-    font-size: 22px;
     line-height: 1.2;
     letter-spacing: 0px;
     width: 256px;
@@ -59,6 +73,5 @@ img {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-
+} */
 
