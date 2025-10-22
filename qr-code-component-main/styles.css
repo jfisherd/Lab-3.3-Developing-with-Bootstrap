@@ -14,6 +14,8 @@
 .instructions {
     font-size: 0.9375rem;
     color: #68778D;
+    line-height: 1.4;
+    letter-spacing: 0px;
 }
 
 
@@ -55,12 +57,13 @@ img {
     background-color: white;
     font-family: "Outfit";
     font-size: 15px;
-    line-height: 1.4;
-    letter-spacing: 0px;
+
     width: 256px;
     height: 63px;
     margin-bottom: 40px;
 }
+
+*/
 
 .attribution {
     font-size: 11px; text-align: center; 
@@ -68,5 +71,5 @@ img {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-} */
+} 
 
