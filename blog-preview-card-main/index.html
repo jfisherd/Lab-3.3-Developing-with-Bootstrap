@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Blog preview card</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- enables bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- enables bootstrap -->
@@ -12,11 +12,10 @@
 
 <body>
 
-  <div class="main-container">
-    <main class="flex-main">
-      <div class="logo-container">
-        <img class="blog-logo" src="assets/images/illustration-article.svg" alt="blog logo." width="336px" height="200px">
-      </div>
+  <div class="card-container d-flex">
+    <div class="card mx-auto p-4 bg-black">
+        
+      <img class="blog-logo card-image-top" src="assets/images/illustration-article.svg" alt="blog logo." width="336px," height="200px">
 
       <fieldset aria-label="page content." class="content">
         <legend aria-label="category: learning." class="category"><a href="#">Learning</a></legend> <!-- Do not make these <p>'s -->
@@ -29,10 +28,10 @@
         <img class="profile-pic" src="assets/images/image-avatar.webp" alt="profile picture.">
         <a href="#" class="profile-name">Greg Hooper</a> <!-- Do not make these <p>'s -->
       </fieldset> 
-    </main>
+    </div>
   </div>
 
-  <footer class="attribution">
+  <footer class="attribution text-center">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Josh Fisher</a>.
   </footer>
