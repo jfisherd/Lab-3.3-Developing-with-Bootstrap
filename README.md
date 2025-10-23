@@ -14,6 +14,9 @@ Refactoring with Bootstrap required restructuring the html document, which requi
 
 > How did using Bootstrap utility classes and components simplify your styling process?
 
+
+It did not.
+<br>
 Utilities
 background color
 <br>

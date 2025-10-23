@@ -2,6 +2,15 @@
     background-color: #F4D04E;
 }
 
+a {
+    color: #111111;
+    text-decoration: none;
+}
+
+fieldset {
+    all:unset;
+}
+
 .card-container {
     align-items: center;
     height: 100vh;
@@ -11,6 +20,10 @@
     width: 24rem; 
     height: 32.625rem; 
     border-radius: 1.25rem;
+}
+
+.blog-logo {
+    border-radius: 20px;
 }
 
 .category {
@@ -83,17 +96,15 @@
     border: 1px solid red;
 }
 
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
 
 /*
-
-a {
-    color: #111111;
-    text-decoration: none;
-}
-
-fieldset {
-    all:unset;
-}
 
 .main-container {
     display: flex;
@@ -122,9 +133,7 @@ fieldset {
     height: 200px;
 }
 
-.blog-logo {
-    border-radius: 20px;
-}
+
 
 .content {
     display: flex;
@@ -149,14 +158,6 @@ fieldset {
 
 .profile-name:hover, .profile-name:focus {
     color: #F4D04E;
-}
-
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%); 
 }
 
 @media (max-width: 600px) {
